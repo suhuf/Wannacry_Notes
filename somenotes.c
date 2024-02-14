@@ -2,7 +2,7 @@ Random notes from ghidra
 
 
 
-**WinMain****:**
+// **WinMain****:**
 
 
 /* This file, or atleast part of it, was in the old 1831.bin file and was the entry point.
@@ -87,7 +87,7 @@ int WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,PWSTR pCmdLine,int nCmdS
   return 0;
 }
 
-**2058.bin "Load and Size" ()****:** This section was huge in the older version, in this variant it is split up:
+// **2058.bin "Load and Size" ()****:** This section was huge in the older version, in this variant it is split up:
 
 /* Load resource (previously 1831) *again* broken up from large function.
    
@@ -153,7 +153,7 @@ undefined4 __cdecl 2058_LoadnSize(HMODULE param_1,char *param_2)
 }
 
 
-**Bitcoin addresses function:**
+// **Bitcoin addresses function:**
 
 /* This was in the past in a separate bin file named 1831.bin. The file was replaced with a zip file
    named 2058.bin/zip with different assets.
@@ -186,7 +186,7 @@ void Bitcoin_addresses(void)
   }
   return;
 
-**key_ApiCalls:**
+// **key_ApiCalls:**
 
 undefined4 key_ApiCalls(void)
 
